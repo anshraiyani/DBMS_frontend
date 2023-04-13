@@ -17,33 +17,59 @@
             <form action=""  style="display: none;" class="register-form" >
                 <div class="first-name">
                     <label for="">First Name</label>
-                    <input type="text" name="first-name">
+                    <input type="text" name="first-name" required>
                 </div>
                 <div class="last-name">
                     <label for="">Last Name</label>
-                    <input type="text" name="last-name">
+                    <input type="text" name="last-name" required>
                 </div>
                 <div class="email">
                     <label for="">Email</label>
-                    <input type="email" name="email">
+                    <input type="email" name="email" required>
                 </div>
                 <div class="birthdate">
                     <label for="">Birthdate</label>
-                    <input type="date" name="birthdate">
+                    <input type="date" name="birthdate" required>
                 </div>
-                <div class="submit">
-                    <Button>Submit</Button>
+                <div >
+                    <Button type="submit" class="submit">Register</Button>
+                </div>
+                <div >
+                    <Button class="cancel">Cancel</Button>
                 </div>
             </form>
+            <div class="output">
+
+            </div>
         </div>
         <div class="enroll">
-            <button>Enroll Course</button>
+            <button class="enroll-btn">Enroll Course</button>
+            <form action=""  style="display: none;" class="enroll-form">
+                <div>
+                    <label for="">Enter Student ID</label>
+                    <input type="number" name="s_id" id="" required>
+                </div>
+                <div>
+                    <label for="">Enter Course ID</label>
+                    <input type="number" name="c_id" id="" required>
+                </div>
+                <div>
+                    <label for="">Enter Semester ID</label>
+                    <input type="number" name="sem_id" id="" required>
+                </div>
+                <div>
+                    <Button type="submit" class="submit">Enroll</Button>
+                </div>
+                <div>
+                    <Button class="cancel2">Cancel</Button>
+                </div>
+            </form>
         </div>
         <div class="attendance">
             <button>Check Attendance</button>
         </div>
-        <div class="classes">
-            <button>View Classes</button>
+        <div class="students">
+            <button>View Students</button>
         </div>
         <div class="result">
             <button>View Result</button>
