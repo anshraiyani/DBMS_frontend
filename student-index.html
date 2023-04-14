@@ -38,7 +38,7 @@
                     <Button class="cancel">Cancel</Button>
                 </div>
             </form>
-            <div class="output">
+            <div class="register-output">
 
             </div>
         </div>
@@ -64,15 +64,59 @@
                     <Button class="cancel2">Cancel</Button>
                 </div>
             </form>
+            <div class="enroll-output">
+
+            </div>
         </div>
         <div class="attendance">
-            <button>Check Attendance</button>
+            <button class="att-btn">Check Attendance</button>
+            <form action="" class="att-form" style="display: none;">
+                <div>
+                    <label for="">Enter Student ID</label>
+                    <input type="number" name="s_id" required>
+                </div>
+                <div>
+                    <label for="">Enter Subject ID</label>
+                    <input type="number" name="sub_id" required>
+                </div>
+                <div>
+                    <Button type="submit" class="submit">Check</Button>
+                </div>
+                <div>
+                    <Button class="cancel3">Cancel</Button>
+                </div>
+            </form>
+            <div class="att-output">
+
+            </div>
+        </div>
+        <div class="result">
+            <button class="result-btn">View Result</button>
+            <form action="" class="result-form" style="display: none;">
+                <div>
+                    <label for="">Enter Student ID</label>
+                    <input type="number" name="s_id" required>
+                </div>
+                <div>
+                    <label for="">Enter Subject ID</label>
+                    <input type="number" name="sub_id" required>
+                </div>
+                <div>
+                    <Button type="submit" class="submit">View Result</Button>
+                </div>
+                <div>
+                    <Button class="cancel4">Cancel</Button>
+                </div>
+            </form>
+            <div class="result-output">
+
+            </div>
         </div>
         <div class="students">
             <button>View Students</button>
-        </div>
-        <div class="result">
-            <button>View Result</button>
+            <div class="view-stud-output">
+
+            </div>
         </div>
     </div>
     <script src="student-script.js"></script>
