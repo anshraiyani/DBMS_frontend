@@ -3,9 +3,17 @@ const cancelBtn2 = document.querySelector('.cancel2');
 const cancelBtn3 = document.querySelector('.cancel3');
 const cancelBtn4 = document.querySelector('.cancel4');
 const cancelBtn5 = document.querySelector('.cancel5');
+const cancelBtn6  = document.querySelector('.cancel6');
+const cancelBtn7  = document.querySelector('.cancel7');
 
 const registerBtn = document.querySelector('.register-btn');
 const registerForm = document.querySelector('.register-form');
+
+const assignSubBtn = document.querySelector('.assign-subject-btn');
+const assignSubForm = document.querySelector('.assign-subject-form');
+
+const assignStudBtn = document.querySelector('.assign-student-btn');
+const assignStudForm = document.querySelector('.assign-student-form');
 
 const markAttBtn = document.querySelector('.mark-att-btn');
 const markAttForm = document.querySelector('.mark-att-form');
@@ -22,6 +30,12 @@ const assignResultForm = document.querySelector('.assign-result-form');
 //view forms
 registerBtn.addEventListener('click',()=>{
     registerForm.style.display="";
+});
+assignSubBtn.addEventListener('click',()=>{
+    assignSubForm.style.display="";
+});
+assignStudBtn.addEventListener('click',()=>{
+    assignStudForm.style.display="";
 });
 markAttBtn.addEventListener('click',()=>{
     markAttForm.style.display="";
@@ -51,4 +65,10 @@ cancelBtn4.addEventListener('click',()=>{
 });
 cancelBtn5.addEventListener('click',()=>{
     assignResultForm.style.display="none";
+});
+cancelBtn6.addEventListener('click',()=>{
+    assignSubForm.style.display="none";
+});
+cancelBtn7.addEventListener('click',()=>{
+    assignStudForm.style.display="none";
 });

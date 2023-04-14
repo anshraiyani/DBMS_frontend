@@ -44,7 +44,7 @@ form{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.register, .attendance, .create-test, .assign-test, .assign-result{
+.register, .attendance, .create-test, .assign-test, .assign-result, .assign-subject, .assign-student{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -87,5 +87,13 @@ form input{
 }
 
 .assign-result-form{
+    height: 300px;
+}
+
+.assign-subject-form{
+    height: 300px;
+}
+
+.assign-student-form{
     height: 300px;
 }
