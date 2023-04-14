@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty Section</title>
+    <link rel="stylesheet" href="faculty-style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Faculty Section</h1>
+    </div>
+    <div class="content">
+        <div class="register">
+            <button class="register-btn">Register Faculty</button>
+            <form action=""  style="display: none;" class="register-form" >
+                <div class="first-name">
+                    <label for="">First Name</label>
+                    <input type="text" name="first-name" required>
+                </div>
+                <div class="last-name">
+                    <label for="">Last Name</label>
+                    <input type="text" name="last-name" required>
+                </div>
+                <div class="email">
+                    <label for="">Email</label>
+                    <input type="email" name="email" required>
+                </div>
+                <div >
+                    <Button type="submit" class="submit">Register</Button>
+                </div>
+                <div >
+                    <Button class="cancel">Cancel</Button>
+                </div>
+            </form>
+            <div class="register-output">
+
+            </div>
+        </div>
+        <div class="attendance">
+            <button class="mark-att-btn">Mark Attendance</button>
+            <form action="" class="mark-att-form" style="display: none;">
+                <div>
+                    <label for="">Enter Student ID</label>
+                    <input type="number" name="s_id" required>
+                </div>
+                <div>
+                    <label for="">Enter Subject ID</label>
+                    <input type="number" name="sub_id" required>
+                </div>
+                <div>
+                    <label for="">Date</label>
+                    <input type="date" name="date" required>
+                </div>
+                <div>
+                    <label for="">Status</label>
+                    <select name="" id="status">
+                        <option value="P">P</option>
+                        <option value="A">A</option>
+                    </select>
+                </div>
+                <div >
+                    <Button type="submit" class="submit">Mark Attendance</Button>
+                </div>
+                <div >
+                    <Button class="cancel2">Cancel</Button>
+                </div>
+            </form>
+            <div class="mark-att-output"></div>
+        </div>
+        <div class="create-test">
+            <button class="create-test-btn">Create Test</button>
+            <form action="" class="create-test-form" style="display: none;">
+                <div>
+                    <label for="">Enter Subject ID</label>
+                    <input type="number" name="sub_id" required>
+                </div>
+                <div>
+                    <label for="">Enter Marks</label>
+                    <input type="number" name="makrs" required>
+                </div>
+                <div>
+                    <label for="">Enter Date</label>
+                    <input type="date" name="date" required>
+                </div>
+                <div >
+                    <Button type="submit" class="submit">Create Test</Button>
+                </div>
+                <div >
+                    <Button class="cancel3">Cancel</Button>
+                </div>
+            </form>
+        </div>
+        <div class="assign-test">
+            <button class="assign-test-btn">Assign Test</button>
+            <form action="" class="assign-test-form" style="display: none;">
+                <div>
+                    <label for="">Enter Test ID</label>
+                    <input type="number" name="t_id" required>
+                </div>
+                <div>
+                    <label for="">Enter Student ID</label>
+                    <input type="number" name="s_id" required>
+                </div>
+                <div >
+                    <Button type="submit" class="submit">Assign</Button>
+                </div>
+                <div >
+                    <Button class="cancel4">Cancel</Button>
+                </div>
+            </form>
+        </div>
+        <div class="assign-result">
+            <button class="assign-result-btn">Assign Result</button>
+            <form action="" class="assign-result-form" style="display: none;">
+                <div>
+                    <label for="">Enter Test ID</label>
+                    <input type="number" name="t_id" required>
+                </div>
+                <div>
+                    <label for="">Enter Student ID</label>
+                    <input type="number" name="s_id" required>
+                </div>
+                <div>
+                    <label for="">Enter Marks</label>
+                    <input type="number" name="marks" required>
+                </div>
+                <div >
+                    <Button type="submit" class="submit">Assign</Button>
+                </div>
+                <div >
+                    <Button class="cancel5">Cancel</Button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="faculty-script.js"></script>
+</body>
+</html>
