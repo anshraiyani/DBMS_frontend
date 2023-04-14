@@ -50,7 +50,7 @@ a:visited{
 .content div{
     border:5px solid whitesmoke;
     border-radius: 7px;
-    height: 50vh;
+    height: 55vh;
     width: 25vw;
     display: flex;
     flex-direction: column;
